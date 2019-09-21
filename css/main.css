@@ -1,0 +1,151 @@
+
+
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Playfair Display', serif;
+
+}
+
+h1 {
+	  font-family: 'Sugar Plums Italic', sans-serif;
+		color: #d4af37;
+}
+h2,
+h3,
+h4 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
+
+}
+
+p{
+
+}
+
+
+/***** HEADER *****/
+header {
+  height: 120px;
+}
+
+header h1  {
+  float: left;
+  font-size: 28px;
+  padding: 32px 0;
+
+}
+
+
+
+
+
+/***** NAV *****/
+
+nav {
+  float: right;
+  padding: 46px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav  ul li a {
+    color: #ce897b;
+    text-decoration: none;
+    padding-left: 25px
+}
+
+/***** TOP SECTION *****/
+
+.top-section {
+    margin-bottom: 35px;
+}
+
+.top-section h2 {
+  color: #00000;
+  font-size: 18px;
+
+}
+
+/***** TOP IMAGE *****/
+
+.top-image img {
+  border-bottom: 3px solid #ce897b;
+  border-top: 3px solid #ce897b;
+  width: 100%;
+}
+.top-section p {
+  line-height: 30px;
+}
+
+/***** BOTTOM SECTION *****/
+
+.bottom-section {
+  border-top: 1px solid #eee;
+}
+
+.bottom-section  ul li {
+  color: #ce897b;
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.bottom-section {
+  display:table;
+  width:100%;
+}
+#row {
+  display:table-row;
+}
+#menu {
+  display:table-cell;
+  width:33%;
+  border-right: 1px solid #eee;
+}
+#reviews {
+  display:table-cell;
+
+  width:33%;
+  padding: 25px;
+  border-right: 1px solid #eee;
+}
+#reviews p {
+  font-style: italic;
+}
+#locations {
+  display:table-cell;
+  width:34%;
+  padding: 25px;
+}
+
+#menu h4 {
+  padding-left: 38px;
+}
+
+/*
+#menu {
+  width: 400px;
+  float: left
+}
+
+#locations {
+  float: right;
+} */
+
+/***** FOOTER *****/
+
+footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+footer span {
+  color: #ce897b;
+  font-family: 'Sugar Plums Italic', cursive;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: lowercase;
+}
